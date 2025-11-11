@@ -27,9 +27,19 @@
       </button>
       <section class="collapse navbar-collapse" id="mainnav">
         <ul class="navbar-nav text-center gap-4">
-            <li class="nav-item"><a class="nav-link fs-4 px-3" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link fs-4 px-3" href="portfolio.html">Projecten</a></li>
-            <li class="nav-item"><a class="nav-link active fs-4 px-3" href="contact.html" style="color: #492051;">Contact</a></li>
+            <li class="nav-item"><a class="nav-link active fs-4 px-3" href="index.html" style="color: #492051;">Home</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-4 px-3" href="portfolio.html" id="projectendropdown" data-bs-toggle="dropdown">Projecten</a>
+                <ul class="dropdown-menu" aria-labelledby="projectendropdown">
+                    <li><a class="dropdown-item" href="project1.html">Hoe ik deze website heb gemaakt</a></li>
+                    <li><a class="dropdown-item" href="project2.html">Webwiz opdracht</a></li>
+                    <li><a class="dropdown-item" href="project3.html">Project 3</a></li>
+                    <li><a class="dropdown-item" href="project4.html">Project 4</a></li>
+                    <li><a class="dropdown-item" href="project5.html">Project 5</a></li>
+                    <li><a class="dropdown-item" href="project6.html">Project 6</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link fs-4 px-3" href="contact.html">Contact</a></li>
         </ul>
       </section>
     </section>
@@ -37,32 +47,18 @@
 </header>
 <main class="container my-5 text-center">
   <section class="row mb-4">
-    <section class="col">
-      <h1 class="display-4 fw-bold text-uppercase" style="color: #492051;">Contact</h1>
-      <p class="lead mx-auto" style="max-width: 700px; color: #a166c0;">
-        Als je geïnteresseerd bent in wat ik doe en meer wilt weten, neem gerust contact met me op!
-      </p>
+    <section class="col position-relative">
+      <p class="text-start text-muted small mb-1">Geen datum</p>
+      <h1 class="display-5 fw-bold text-uppercase mb-3">project 5</h1>
+      <img src="assets/images/project3.webp" alt="project5" class="img-fluid rounded shadow">
     </section>
   </section>
-    <section class="row justify-content-center">
-    <section class="col-md-8 col-lg-6">
-      <form action="mailto:ana.denerville@gmail.com" method="post" enctype="text/plain">
-        <section class="mb-3">
-          <label for="naam" class="form-label">Naam</label>
-          <input type="text" id="naam" name="naam" class="form-control" required>
-        </section>
-        <section class="mb-3">
-          <label for="email" class="form-label">E-mail</label>
-          <input type="email" id="email" name="email" class="form-control" required>
-        </section>
-        <section class="mb-3">
-          <label for="bericht" class="form-label">Bericht</label>
-          <textarea id="bericht" name="bericht" class="form-control" rows="6" required></textarea>
-        </section>
-        <button type="submit" class="form-button">Verstuur</button>
-      </form>
-    </section>
+  <section class="row my-5">
+  <section class="col-md-10 mx-auto">
+    <p class="lead text-justify" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptate unde quisquam ex itaque aliquid sit, voluptatem minus saepe at reprehenderit, soluta qui molestias dignissimos nemo cupiditate laborum minima vitae tenetur adipisci ullam accusamus repellat! Expedita ut, neque quaerat harum similique temporibus delectus! Amet voluptatem similique excepturi officia dolore aut.
+    </p>
   </section>
+</section>
 </main>
 <aside></aside>
 <footer class="text-end py-3" style="width: auto;">
